@@ -1,0 +1,18 @@
+# Daily Calorie Tracker
+print("Welcome to the Calorie Tracker!")
+
+breakfast = input("Calories for breakfast: ")   # input
+print("Data type:", type(breakfast))            # type()
+
+breakfast = int(breakfast)                      # convert to int
+lunch = int(input("Calories for lunch: "))
+dinner = int(input("Calories for dinner: "))
+
+snacks = int(input("Calories from snacks: "))   # another input
+
+total = breakfast + lunch + dinner + snacks     # arithmetic
+average = total / 4                              # arithmetic
+
+print("Total calories today:", total)           # output
+print("Average calories per meal:", average)    # output
+print("Tracking complete!")                     # final line
